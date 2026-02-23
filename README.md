@@ -1,5 +1,5 @@
 # Backend-Project 
-# Personal Expense Tracker App 💰
+# Personal Expense Tracker App 
 
 **Take control of your finances with ease!** This isn't just another expense tracker; it's your personalized financial command center. Built with a robust foundation of **Express.js**, dynamic **EJS** views, and a lightweight **JSON** data store, this app empowers you to effortlessly manage both your individual spending and shared expenses with friends or family.
 
