@@ -5,6 +5,7 @@ const cookieParser = require('cookie-parser');
 const morgan = require('morgan');
 const { v4: uuidv4 } = require('uuid');
 const PORT = process.env.PORT ;
+require('dotenv').config();
 
 app.set("view engine", "ejs");
 
@@ -483,6 +484,6 @@ app.use((err, req, res, next) => {
     res.render("error.ejs", { url: req.url, code: err.status, reason: err.message });
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log("Server running on ${PORT}");
 });
